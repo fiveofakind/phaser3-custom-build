@@ -15,7 +15,9 @@
     "buildfull": "webpack --config webpack.config-full.js --display-modules",
     "buildfulllog": "webpack --config webpack.config-full.js --json --profile > webpack.build-full-log.json",
     "buildcore": "webpack --config webpack.config-core.js --display-modules",
-    "buildcorelog": "webpack --config webpack.config-core.js --json --profile > webpack.build-core-log.json"
+    "buildcorelog": "webpack --config webpack.config-core.js --json --profile > webpack.build-core-log.json",
+    "buildcoreminus": "webpack --config webpack.config-core-minus.js --display-modules",
+    "buildcoreminuslog": "webpack --config webpack.config-core-minus.js --json --profile > webpack.build-core-log.json"
   },
   "repository": {
     "type": "git",
